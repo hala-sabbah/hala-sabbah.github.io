@@ -162,3 +162,8 @@ body.locked .site-nav,body.locked main{display:none}
 .work-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 32px;border-top:1px solid var(--line);padding-top:24px;margin-bottom:28px}
 .work-head h2{margin:0;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .work-head p{margin:0;max-width:560px;color:var(--muted);font-size:15px}
+
+/* Project subtitles */
+.tile h2 small,.project-head h1 small{display:block;font-weight:500;color:var(--muted);letter-spacing:-.01em}
+.tile h2 small{font-size:.62em;margin-top:2px}
+.project-head h1 small{font-size:.44em;line-height:1.25;margin-top:10px}
