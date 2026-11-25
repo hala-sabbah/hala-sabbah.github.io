@@ -814,3 +814,17 @@ Change widths as necessary
   .etabs > li span{ display: none; }
   .tab a{ padding: 4px 10px; }
 }
+
+/* About: experience points */
+.intro-points{
+  max-width: 420px;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.intro-points li{
+  margin-bottom: 10px;
+}
