@@ -752,3 +752,65 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
+/* CG Art tab */
+.cg-project{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  border-top: 1px solid #f1f1f1;
+}
+.cg-project.first{
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+.cg-project h3{
+  margin: 0 0 6px 0;
+}
+.cg-project p{
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.image.video:after{
+  content: "\25B6";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 46px;
+  height: 46px;
+  margin: -23px 0 0 -23px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .55);
+  color: #fff;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  padding-left: 3px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.cg-more{
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Keep all tabs on one row at desktop width */
+@media only screen and (min-width: 1024px) {
+  .tab{ margin-right: 4px; }
+  .tab a{ padding: 10px 12px; font-size: 12px; }
+  .tab a i{ margin-right: 5px; }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .tab a{ padding: 10px 8px; font-size: 11px; }
+  .tab a i{ margin-right: 4px; }
+}
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .tab{ margin-right: 2px; }
+  .tab a{ padding: 4px 6px; font-size: 10px; }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .etabs > li span{ display: none; }
+  .tab a{ padding: 4px 10px; }
+}
