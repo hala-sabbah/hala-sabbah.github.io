@@ -157,3 +157,8 @@ body.locked .site-nav,body.locked main{display:none}
 .gate button:hover{background:#333}
 .gate button:disabled{opacity:.6;cursor:wait}
 .gate .error{color:#b3261e;font-size:14px;min-height:20px}
+
+/* Work heading */
+.work-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 32px;border-top:1px solid var(--line);padding-top:24px;margin-bottom:28px}
+.work-head h2{margin:0;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.work-head p{margin:0;max-width:560px;color:var(--muted);font-size:15px}
