@@ -170,3 +170,8 @@ body.locked .site-nav,body.locked main{display:none}
 
 /* Portrait photo rows */
 .gallery.three.tall .shot img{aspect-ratio:3/4;object-fit:cover}
+
+/* Instagram reel embed */
+.reel{display:flex;justify-content:center;background:var(--soft);border-radius:4px;padding:24px 16px}
+.reel iframe{width:100%;max-width:400px;height:720px;border:0;border-radius:8px;background:#fff}
+@media (max-width: 560px){.reel{padding:12px 0}.reel iframe{height:640px}}
