@@ -76,7 +76,7 @@
       document.querySelectorAll('.project').forEach(function (p) { p.classList.toggle('is-open', p === open); });
       body.classList.toggle('viewing-project', !!open);
       if (open) { window.scrollTo(0, 0); document.title = open.dataset.title + ' | Hala Sabbah'; }
-      else { document.title = 'Hala Sabbah | Interior Designer – CG Artist'; }
+      else { document.title = 'Hala Sabbah | Interior Designer – 3D Visualizer'; }
       if (!open && hash && hash.charAt(1) !== '/') {
         var target = document.getElementById(hash.slice(1));
         if (target) target.scrollIntoView();
