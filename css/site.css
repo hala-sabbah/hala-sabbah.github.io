@@ -167,3 +167,6 @@ body.locked .site-nav,body.locked main{display:none}
 .tile h2 small,.project-head h1 small{display:block;font-weight:500;color:var(--muted);letter-spacing:-.01em}
 .tile h2 small{font-size:.62em;margin-top:2px}
 .project-head h1 small{font-size:.44em;line-height:1.25;margin-top:10px}
+
+/* Portrait photo rows */
+.gallery.three.tall .shot img{aspect-ratio:3/4;object-fit:cover}
